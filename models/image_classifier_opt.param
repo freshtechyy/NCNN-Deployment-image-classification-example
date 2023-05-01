@@ -1,0 +1,11 @@
+7767517
+9 9
+Input                    input                    0 1 input
+Convolution              Conv_0                   1 1 input 12 0=6 1=5 5=1 6=450 9=1
+Pooling                  MaxPool_2                1 1 12 13 1=2 2=2 5=1
+Convolution              Conv_3                   1 1 13 15 0=16 1=5 5=1 6=2400 9=1
+Pooling                  MaxPool_5                1 1 15 16 1=2 2=2 5=1
+Flatten                  Flatten_6                1 1 16 17
+InnerProduct             Gemm_7                   1 1 17 19 0=120 1=1 2=48000 9=1
+InnerProduct             Gemm_9                   1 1 19 21 0=84 1=1 2=10080 9=1
+InnerProduct             Gemm_11                  1 1 21 output 0=10 1=1 2=840
