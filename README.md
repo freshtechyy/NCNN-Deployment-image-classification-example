@@ -31,7 +31,7 @@ make install
 ### Training
 
 ```bash
-git clone 
+git clone https://github.com/freshtechyy/NCNN-Deployment-image-classification-example.git
 cd ncnn_image_classification/
 python3 scripts/train.py
 ```
@@ -95,5 +95,5 @@ The following result will be shown.
 
 ## References
 
-* Tencent, Neural Network Computer Vision, https://github.com/tencent/ncnn, 2019.
+* Tencent, NVIDIA CUDA Convolutional Neural Network (NCNN), https://github.com/tencent/ncnn, 2019.
 * https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
